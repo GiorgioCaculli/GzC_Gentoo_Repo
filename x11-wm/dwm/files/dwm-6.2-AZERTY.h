@@ -26,7 +26,7 @@ static const char *tags[] = { "1", "2", "3", "4", "5", "6", "7", "8", "9" };
 
 static const char firefox[]  = "Firefox";
 static const char discord[]  = "discord";
-static const char signal_desktop[]   = "Signal";
+static const char _signal[]  = "Signal";
 static const char telegram[] = "Telegram";
 static const char element[]  = "Element";
 static const char chromium[] = "chromium-browser-chromium";
@@ -38,9 +38,9 @@ static const Rule rules[] = {
 	 */
 	/* class              instance    title       tags mask     isfloating   monitor */
 	{ firefox,            NULL,       NULL,       1 << 1,       0,           -1 },
-	{ chromium,            NULL,       NULL,       1 << 1,       0,           -1 },
+	{ chromium,           NULL,       NULL,       1 << 1,       0,           -1 },
 	{ discord,            NULL,       NULL,       1 << 8,       0,           -1 },
-	{ signal_desktop,     NULL,       NULL,       1 << 7,       0,           -1 },
+	{ _signal,            NULL,       NULL,       1 << 7,       0,           -1 },
 	{ telegram,           NULL,       NULL,       1 << 6,       0,           -1 },
 	{ element,            NULL,       NULL,       1 << 5,       0,           -1 },
 };
