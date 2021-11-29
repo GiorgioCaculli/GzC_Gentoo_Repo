@@ -29,6 +29,7 @@ static const char discord[]  = "discord";
 static const char _signal[]  = "Signal";
 static const char telegram[] = "Telegram";
 static const char element[]  = "Element";
+static const char whatsapp[] = "WhatsApp";
 static const char chromium[] = "chromium-browser-chromium";
 
 static const Rule rules[] = {
@@ -43,6 +44,7 @@ static const Rule rules[] = {
 	{ _signal,            NULL,       NULL,       1 << 7,       0,           -1 },
 	{ telegram,           NULL,       NULL,       1 << 6,       0,           -1 },
 	{ element,            NULL,       NULL,       1 << 5,       0,           -1 },
+	{ whatsapp,           NULL,       NULL,       1 << 4,       0,           -1 },
 };
 
 /* layout(s) */
